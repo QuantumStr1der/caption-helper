@@ -51,10 +51,14 @@ The following guide outlines the captioning approach:
 3. **Incorporate Background and Lighting**:
    - Mention any environmental details that contribute to the scene’s mood or atmosphere.
    - Use specific descriptions to reflect the impact of lighting or surroundings.
-4. **Limit to 77 Tokens, When Necessary**: You may use up to the full 77 tokens if it provides the most complete and clear description. It’s not necessary to use fewer if more tokens capture the image better. The token count should never be above 77. Make sure your response is no more than 77 tokens and ensure that it ends with a complete sentence. Rule of thumb is about every ~4 characters is 1 token. Take 15% off just to be safe and stay below the 77 token limit. Keep this strictly in mind when you write a response.
+4. **Limit to 77 Tokens, When Necessary**: You may use up to the full 77 tokens if it provides the most complete and clear description. It’s not necessary to use fewer if more tokens capture the image better.
+5. **Follow Token Count Rule of Thumb**:
+   - **1 token ≈ 0.75 words**.
+   - **1 token ≈ 4 characters (including spaces)**.
+   - Plan captions accordingly to avoid cutting off responses.
 
 ### Caption Structure:
-1. **Globals**: Include rare tokens or consistent tags${customToken ? ` (e.g., ${customToken})` : ''}.
+1. **Globals**: Include rare tokens or consistent tags (e.g., character name, specific label).
 1.5. **Natural Language Description**: Summarize the scene briefly (e.g., "Aerith gazes upward with wide eyes and a look of wonder").
 2. **Pose and Perspective**:
    - Provide a general overview of the subject’s positioning and angle (e.g., "close-up," "profile view").
@@ -69,7 +73,7 @@ The following guide outlines the captioning approach:
 7. **Mood and Emotion**:
    - Capture the mood conveyed by the subject or scene (e.g., "a sense of awe or fascination").
 
-Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens, but never more. Only use fewer when appropriate. Make sure to adhere to the strict token limit principle. If the character count of your response divided by 7.5 is greater than 77, try again while still trying to include the details you had if they were important. Do not include any other text or formatting.
+Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens. Only use fewer when appropriate.
 `;
 
     if (inherentAttributes) {
