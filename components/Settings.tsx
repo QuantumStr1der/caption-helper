@@ -43,7 +43,7 @@ export default function Settings({ isOpen, onClose }: SettingsProps) {
             <Input
               className="flex-grow"
               label="Groq API Key"
-              type="password"
+              type="text"
               value={groqApiKey}
               onChange={(e) => setGroqApiKey(e.target.value)}
             />
@@ -67,7 +67,7 @@ export default function Settings({ isOpen, onClose }: SettingsProps) {
             <Input
               className="flex-grow"
               label="OpenAI API Key"
-              type="password"
+              type="text"
               value={openaiApiKey}
               onChange={(e) => setOpenaiApiKey(e.target.value)}
             />
