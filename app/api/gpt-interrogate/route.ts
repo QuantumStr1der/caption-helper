@@ -51,7 +51,7 @@ The following guide outlines the captioning approach:
 3. **Incorporate Background and Lighting**:
    - Mention any environmental details that contribute to the scene’s mood or atmosphere.
    - Use specific descriptions to reflect the impact of lighting or surroundings.
-4. **Limit to 77 Tokens, When Necessary**: You may use up to the full 77 tokens if it provides the most complete and clear description. It’s not necessary to use fewer if more tokens capture the image better.
+4. **Limit to 77 Tokens, When Necessary**: You may use up to the full 77 tokens if it provides the most complete and clear description. It’s not necessary to use fewer if more tokens capture the image better. The token count should never be above 77.
 
 ### Caption Structure:
 1. **Globals**: Include rare tokens or consistent tags${customToken ? ` (e.g., ${customToken})` : ''}.
@@ -69,7 +69,7 @@ The following guide outlines the captioning approach:
 7. **Mood and Emotion**:
    - Capture the mood conveyed by the subject or scene (e.g., "a sense of awe or fascination").
 
-Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens. Only use fewer when appropriate. Do not include any other text or formatting.
+Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens, but never more. Only use fewer when appropriate. Do not include any other text or formatting.
 `;
 
     if (inherentAttributes) {
