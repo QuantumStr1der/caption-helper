@@ -56,6 +56,7 @@ The following guide outlines the captioning approach:
    - **1 token ≈ 0.75 words**.
    - **1 token ≈ 4 characters (including spaces)**.
    - Plan captions accordingly to avoid cutting off responses.
+6. **Avoid Special Characters**: The response must not include any special characters except for periods (.) and commas (,). Ensure that no other punctuation or symbols are used in the output.
 
 ### Caption Structure:
 1. **Globals**: Include rare tokens or consistent tags (e.g., character name, specific label).
@@ -73,7 +74,7 @@ The following guide outlines the captioning approach:
 7. **Mood and Emotion**:
    - Capture the mood conveyed by the subject or scene (e.g., "a sense of awe or fascination").
 
-Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens. Only use fewer when appropriate.
+Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens. Only use fewer when appropriate. Ensure no special characters are used except periods and commas.
 `;
 
     if (inherentAttributes) {
