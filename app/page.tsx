@@ -335,7 +335,7 @@ export default function Home() {
                         onClick={() => handleCaptionAction("enhance")}
                         isLoading={isLoading.enhance}
                       >
-                        Enhance
+                        Simplify
                       </Button>
                       <Button
                         size="sm"
@@ -351,7 +351,7 @@ export default function Home() {
                         onClick={() => handleCaptionAction("interrogate")}
                         isLoading={isLoading.interrogate}
                       >
-                        Interrogate
+                        Interrogate 
                       </Button>
                       <Button
                         disabled={previousCaptions.length === 0}
