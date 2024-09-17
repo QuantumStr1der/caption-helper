@@ -118,7 +118,7 @@ ${customInstruction}
           ],
         },
       ],
-      max_tokens: 300,
+      max_tokens: 77,
     });
 
     const caption = response.choices[0]?.message?.content || "";
