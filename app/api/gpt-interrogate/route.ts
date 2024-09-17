@@ -69,7 +69,7 @@ The following guide outlines the captioning approach:
 7. **Mood and Emotion**:
    - Capture the mood conveyed by the subject or scene (e.g., "a sense of awe or fascination").
 
-Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens, but never more. Only use fewer when appropriate. Make sure to adhere to the strict token limit principle. If the character count of your response divided by 6 is greater than 77, try again while still trying to include the details you had if they were important. Do not include any other text or formatting.
+Combine all of these to create a detailed caption for the image. If more words better convey the image, feel free to use the full 77 tokens, but never more. Only use fewer when appropriate. Make sure to adhere to the strict token limit principle. If the character count of your response divided by 7.5 is greater than 77, try again while still trying to include the details you had if they were important. Do not include any other text or formatting.
 `;
 
     if (inherentAttributes) {
